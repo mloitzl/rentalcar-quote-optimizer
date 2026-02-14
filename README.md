@@ -267,7 +267,7 @@ Free to use and modify for personal use. Attribution appreciated but not require
 rentalcar-quote-optimizer/
 ├── README.md                          # This file
 ├── LICENSE                            # MIT License
-├── hertz-price-optimizer.js          # Main script
+├── hxxxz-price-optimizer.js          # Main script
 └── .gitignore                        # Git ignore rules
 ```
 
