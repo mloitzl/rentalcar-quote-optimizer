@@ -3,7 +3,7 @@
 // with STOP function + Enhanced Error Logging
 // ========================================
 
-const API_ENDPOINT = 'https://www.hertz.com/rentacar/rest/hertz/v2/reservations/makeReservation';
+const API_ENDPOINT = 'https://www.hXXXz.com/rentacar/rest/hXXXz/v2/reservations/makeReservation';
 
 // Configuration
 const CONFIG = {
@@ -294,7 +294,7 @@ async function searchBestPrices(pickupStart, pickupEnd, returnStart, returnEnd) 
   // Reset stop flag
   window.STOP_SEARCH = false;
   
-  console.log('%c🚗 HERTZ CAR RENTAL PRICE OPTIMIZER', 'font-size: 16px; font-weight: bold; color: #FFD700;');
+  console.log('%c🚗 hXXXz CAR RENTAL PRICE OPTIMIZER', 'font-size: 16px; font-weight: bold; color: #FFD700;');
   console.log('================================\n');
   console.log(`📍 Location: ${CONFIG.pickupLocationName}`);
   console.log(`📅 Pickup Range: ${pickupStart} - ${pickupEnd}`);
@@ -583,7 +583,7 @@ function downloadJSON(results) {
   const url = URL.createObjectURL(dataBlob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = `hertz-prices-${Date.now()}.json`;
+  link.download = `hXXXz-prices-${Date.now()}.json`;
   link.click();
   console.log('%c📥 JSON file downloaded!', 'color: #00FF00; font-weight: bold;');
 }
@@ -624,7 +624,7 @@ function downloadCSV(results) {
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = `hertz-prices-${Date.now()}.csv`;
+  link.download = `hXXXz-prices-${Date.now()}.csv`;
   link.click();
   console.log('%c📥 CSV file downloaded!', 'color: #00FF00; font-weight: bold;');
 }

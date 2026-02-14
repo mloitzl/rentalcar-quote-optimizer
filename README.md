@@ -1,6 +1,6 @@
 # 🚗 Rental Car Quote Optimizer
 
-A browser-based automation script for comparing car rental prices across multiple date combinations. Optimized for Hertz but adaptable to other rental services.
+A browser-based automation script for comparing car rental prices across multiple date combinations. Optimized for hXXXz but adaptable to other rental services.
 
 ## Overview
 
@@ -16,7 +16,7 @@ This console script automates price comparison by testing all combinations of pi
 
 ## Quick Start
 
-1. Navigate to your target rental site (e.g., https://www.hertz.ch)
+1. Navigate to your target rental site (e.g., https://www.hXXXz.ch)
 2. Open DevTools Console (`F12` → Console tab)
 3. Paste the script and execute
 4. Results auto-copy to clipboard on completion
@@ -72,7 +72,7 @@ Corporate Discount Program (CDP) codes provide discounted rates for members of p
 3. Look for "Corporate/Promotional Code" fields on the rental site
 4. Leave blank (`cdp: ''`) if you don't have one
 
-**Note:** Hertz may require verification of CDP eligibility at pickup.
+**Note:** hXXXz may require verification of CDP eligibility at pickup.
 
 ### Location Codes
 
